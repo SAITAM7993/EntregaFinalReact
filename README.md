@@ -1,8 +1,23 @@
-# React + Vite
+#F-STORE ECOMMERCE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Entrega final de curso REACT de Coderhouse
 
-Currently, two official plugins are available:
+*React
+*Components
+*React Router Dom
+*Context Api
+*Material UI
+*Material Icons
+\*Firebase
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### asdas
+
+> Este proyecto es un ecommerce que permite a los usuarios buscar por categorías, agregar x cantidad de items al carrito o hacer la compra de forma inmediata, remover items del carrito o eliminarlo completamente, generar una orden de compra.
+
+Cómo levantar este proyecto?
+
+git clone https://github.com/SAITAM7993/EntregaFinalReact
+git install
+npm run dev
+
+> NOTAS
