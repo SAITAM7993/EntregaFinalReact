@@ -1,23 +1,28 @@
-#F-STORE ECOMMERCE
-
+# F-STORE ECOMMERCE
 ## Entrega final de curso REACT de Coderhouse
+>#### Matias Sanguinet 2023
 
-*React
-*Components
-*React Router Dom
-*Context Api
-*Material UI
-*Material Icons
-\*Firebase
+## Se utilizó
+>- React
+>- Components
+>- React Router Dom
+>- Context Api
+>- Material UI
+>- Material Icons
+>- Firebase
 
-### asdas
+## Info
+>Este proyecto es un ecommerce que permite a los usuarios buscar por categorías, agregar la cantidad de items al carrito que quiera o hacer la compra de forma inmediata, remover items del carrito o eliminarlo completamente, navegar por todo el sitio,  generar una orden de compra.
 
-> Este proyecto es un ecommerce que permite a los usuarios buscar por categorías, agregar x cantidad de items al carrito o hacer la compra de forma inmediata, remover items del carrito o eliminarlo completamente, generar una orden de compra.
+## Cómo levantar el proyecto
+>- git clone https://github.com/SAITAM7993/EntregaFinalReact
+>- git install
+>- npm run dev
 
-Cómo levantar este proyecto?
-
-git clone https://github.com/SAITAM7993/EntregaFinalReact
-git install
-npm run dev
-
-> NOTAS
+## ToDo 
+>para futuras mejoras
+>- [ ] Agregrar buscador interactivo
+>- [ ] Agregar sección contact
+>- [ ] Agregrar una alerta personalziada en caso de error (actualmente es un alert vanilla)
+>- [ ] Agregar animaciones 
+>- [ ] Entre otros...
