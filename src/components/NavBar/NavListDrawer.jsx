@@ -44,7 +44,6 @@ const NavListDrawer = ({ navLinks }) => {
               </ListItemButton>
             </ListItem>
           ))}
-          {/* como el cartwidget lo tengo como iconbutton para que quede todo igual tengo que agregarle iconbutton a los listitemicon */}
         </List>
       </nav>
     </Box>

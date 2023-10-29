@@ -91,15 +91,9 @@ const NavBar = () => {
         onClose={() => setOpen(false)}
         sx={{ display: { xs: 'flex', lg: 'none' } }}
       >
-        {/*esto lo hago para que si pasa a una tablet o gira el cel por ej no muestre el drawer*/}
         <NavListDrawer navLinks={navLinks} />
-        {/* lo mando como props a navlistdrawer */}
       </Drawer>
     </>
   );
 };
-//onClick es para que haga algo al clickear (evento onClick)
-//el usestate setea el open en true en el onclick, el drawer ve esa variable y la usa para mostrar o no el drawer que contiene el navlistdrawer
-//anchor es para decirle en donde va a aparecer y el onClose es para que cuando se de click en otro lado se cierre seteando el open en false
-
 export default NavBar;

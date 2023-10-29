@@ -1,4 +1,3 @@
-/* Este componente llama a la api para obtener la lista de productos, llama a ItemList que carga las cards y los lista en una grilla */
 //materialUI
 import { Grid } from '@mui/material';
 

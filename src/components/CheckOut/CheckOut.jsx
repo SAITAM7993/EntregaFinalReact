@@ -57,9 +57,6 @@ const CheckOut = () => {
     clearCart(); //limpio el carrito porque ya se lo mande en cartProducts
   };
 
-  if (cartQuantity() === 0) {
-    return <NoItemsInCart />;
-  }
   //values es un bojeto, entonces ya se lo pasa entero
   return (
     <>

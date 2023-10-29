@@ -16,15 +16,11 @@ import { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 const ItemActions = ({ id, title, price, stock }) => {
-  // const ItemActions = ({ stock, initial, onAdd }) => {
   const initial = 1; //1
   const [quantity, setQuantity] = useState(initial);
-  const [quantityAdded, setQuantityAdded] = useState(0);
-
   const { addItem } = useContext(CartContext);
-
   const handleOnAdd = (quantity) => {
-    setQuantityAdded(quantity);
+    setQuantity(quantity);
     //armo el objeto para el carrito
     const item = {
       id,
@@ -122,7 +118,7 @@ const ItemActions = ({ id, title, price, stock }) => {
           </Button>
         </Link>
       </Stack>
-      {/* agregar al carrito, va a ejecutar como callback la funcion recibida por prop y se le pasa cmo argumento la cantidad, en caso de no tener stock lo deshabilitamos con disabled !stock  */}
+      {/* agregar al carrito, va a ejecutar como callback la funcion recibida por prop y se le pasa cmo argumento la cantidad, en caso de no tener stock lo deshabilita con disabled !stock  */}
     </>
   );
 };
