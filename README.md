@@ -4,6 +4,7 @@
 
 ## Se utilizó
 >- React
+>- Vite
 >- Components
 >- React Router Dom
 >- Context Api
